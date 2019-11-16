@@ -9,10 +9,12 @@
              type="text"
              placeholder="输入景点/城市">
     </div>
-    <div class="
+    <router-link to='/city'>
+      <div class="
              header-right">城市
-      <span class="iconfont">&#xe62d;</span>
-    </div>
+        <span class="iconfont">&#xe62d;</span>
+      </div>
+    </router-link>
   </div>
 </template>
 
@@ -50,4 +52,5 @@ export default {
     width 1.24rem
     float right
     text-align center
+    color #fff
 </style>
