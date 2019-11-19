@@ -7,11 +7,12 @@
       <span class="iconfont">&#xe632;</span>
       <input class="header-search"
              type="text"
-             placeholder="输入景点/城市">
+             placeholder="输入景点/城市"
+             @click="handleCityClick()">
     </div>
     <router-link to='/city'>
       <div class="
-             header-right">城市
+             header-right">{{this.$store.state.city}}
         <span class="iconfont">&#xe62d;</span>
       </div>
     </router-link>
@@ -20,7 +21,13 @@
 
 <script>
 export default {
-  name: 'HomeHeader'
+  name: 'HomeHeader',
+  methods: {
+    handleCityClick () {
+      // 页面跳转
+      this.$router.push('/city')
+    }
+  }
 }
 </script>
 
@@ -49,7 +56,8 @@ export default {
     .header-search
       margin-bottom 0.1rem
   .header-right
-    width 1.24rem
+    min-width 1.04rem
+    padding 0 0.1rem
     float right
     text-align center
     color #fff

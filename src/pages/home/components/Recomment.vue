@@ -2,9 +2,10 @@
   <div class="HomeRecomment">
     <div class="title">热销榜单</div>
     <ul>
-      <li class="items"
-          v-for="item of list"
-          :key="item.id">
+      <router-link class="items"
+                   v-for="item of list"
+                   :key="item.id"
+                   :to="'/detail/' + item.id">
         <img class="item-img"
              :src="item.imgUrl">
         <div class="item-info">
@@ -12,7 +13,7 @@
           <p class="img-desc">{{item.desc}}</p>
           <button class="img-button">查看详情</button>
         </div>
-      </li>
+      </router-link>
     </ul>
   </div>
 </template>
