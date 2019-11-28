@@ -1,0 +1,39 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "南昌融创海世界",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1910/7f/7f5c25e01d156624a3.water.jpg_350x240_449e37a5.jpg",
+    "gallaryImgs": [
+      "http://img1.qunarzz.com/sight/p0/1910/7f/7f5c25e01d156624a3.water.jpg_350x240_449e37a5.jpg",
+      "http://img1.qunarzz.com/sight/p0/1910/ee/ee64e6836f0b9714a3.water.jpg_350x240_f63bab12.jpg",
+      "http://img1.qunarzz.com/sight/p0/1703/84/84f8cd4e58c3032aa3.img.jpg_350x240_c76a8bd9.jpg"
+    ],
+    "categoryList": [
+      {
+        "title": "成人票",
+        "children": [
+          {
+            "title": "成人三馆联票",
+            "children": [
+              {
+                "title": "成人三馆联票 - 某一连锁店销售"
+              }
+            ]
+          },
+          {
+            "title": "成人五馆联票"
+          }
+        ]
+      },
+      {
+        "title": "学生票"
+      },
+      {
+        "title": "儿童票"
+      },
+      {
+        "title": "特惠票"
+      }
+    ]
+  }
+}
